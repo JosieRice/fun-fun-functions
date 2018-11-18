@@ -44,5 +44,7 @@ const animals = [{
 ]
 
 const names = animals.map(animal => animal.name)
+const species = animals.map(animal => animal.species)
 
-console.log(names)
+console.log('names', names)
+console.log('species', species)
